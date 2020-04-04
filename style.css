@@ -1,5 +1,5 @@
 body {
-    font-family: serif, 'Cardo', serif;
+    font-family: 'comic sans ms', 'Cardo', serif;
     background-color: #f1f1f1;
     margin: 0;
     /* padding: 0; */
@@ -62,9 +62,9 @@ div.content {
 
 .sidebar a.active {
     /* background-color: #4CAF50; */
-    /* color: white; */
+    color: #555;
     /* font-weight: 800; */
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 
