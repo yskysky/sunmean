@@ -1,6 +1,6 @@
 body {
     font-family: 'comic sans ms', 'Cardo', serif;
-    background-color: #f1f1f1;
+    background-color: white;
     margin: 0;
     /* padding: 0; */
     /* text-align: center; */
@@ -29,7 +29,7 @@ img {
 div.content {
     margin-left: 250px;
     margin-top: 50px;
-    padding: 1px 16px;
+    padding: 1px 20px;
     height: 1000px;
 }
 
@@ -40,11 +40,11 @@ div.content {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
     position: fixed;
     height: 100%;
     overflow: auto;
     text-align: center;
+    /* font-weight: bold; */
 }
 
 
