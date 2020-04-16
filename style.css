@@ -2,21 +2,7 @@ body {
     font-family: 'courier', 'serif';
     background-color: white;
     margin: 0;
-    /* padding: 0; */
-    /* text-align: center; */
-    /* width: auto; */
 }
-
-
-/* 
-body {
-    max-width: 800px;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-} */
 
 img {
     height: auto;
@@ -25,7 +11,6 @@ img {
     position: fixed;
     top: 50%;
     left: 50%;
-    /* bring your own prefixes */
     transform: translate(-50%, -50%);
 }
 
@@ -36,7 +21,6 @@ div.content {
     margin-left: 250px;
     margin-top: 50px;
     padding: 1px 20px;
-    /* height: 1000px; */
 }
 
 
@@ -67,17 +51,13 @@ div.content {
 /* Active/current link */
 
 .sidebar a.active {
-    /* background-color: #4CAF50; */
     color: #555;
-    /* font-weight: 800; */
-    /* text-decoration: underline; */
 }
 
 
 /* Links on mouse-over */
 
 .sidebar a:hover:not(.active) {
-    /* background-color: #555; */
     color: #555;
 }
 
@@ -112,14 +92,3 @@ div.content {
         width: 100%;
     }
 }
-
-
-/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-
-
-/* @media screen and (max-width: 400px) {
-    .sidebar a {
-        text-align: center;
-        float: none;
-    }
-} */
