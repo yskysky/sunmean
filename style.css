@@ -34,7 +34,6 @@ div.content {
     height: 100%;
     overflow: auto;
     text-align: center;
-    /* font-weight: bold; */
 }
 
 
@@ -70,12 +69,10 @@ div.content {
         height: auto;
         position: relative;
         padding: 0;
-        /* 1px 10px; */
         text-align: center;
     }
     .sidebaroptions {
         margin: auto;
-        /* width: 400px; */
         display: inline-block;
     }
     .sidebar a {
